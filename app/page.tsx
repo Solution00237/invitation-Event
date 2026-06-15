@@ -6,16 +6,18 @@ import FloatingParticles from "@/components/FloatingParticles";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import GuestMarquee from "@/components/GuestMarquee";
+import EmptyProject from "@/components/EmptyProject";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen bg-ivory overflow-x-hidden">
-      <FloatingParticles />
+    <main className="relative min-h-screen bg-[#080808] overflow-x-hidden">
       <Navbar />
-      <HeroSection />
-      <EventDetails />
-      <GuestMarquee />
-      <MapSection />
+      {/* <FloatingParticles /> */}
+      {/* <HeroSection /> */}
+      {/* <EventDetails /> */}
+      <EmptyProject />
+      {/* <GuestMarquee /> */}
+      {/* <MapSection /> */}
       <Footer />
     </main>
   );
